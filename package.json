@@ -1,0 +1,25 @@
+{
+    "name": "file-server",
+    "version": "1.0.0",
+    "description": "This is a small fileserver project intended for teaching purposes. The server is\r capable of running as an HTTP structure, through Express.JS as a middleware.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --harmony index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sharmavins23/file-server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sharmavins23/file-server/issues"
+    },
+    "homepage": "https://github.com/sharmavins23/file-server#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-validator": "^6.14.2",
+        "fs": "^0.0.1-security",
+        "morgan": "^1.10.0"
+    }
+}
