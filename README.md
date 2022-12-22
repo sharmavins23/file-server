@@ -1,9 +1,18 @@
-# Node Fileserver
+# File Server
 
-This is a small fileserver project intended for teaching purposes. The server is
-capable of running as an HTTP structure, through Express.JS as a middleware.
+This project is part of a collection of teaching projects intended for beginner,
+intermediate, or even advanced programmers to learn and apply their skills.
+These projects require little to no prior programming experience, but generate a
+large amount of knowledge quickly.
 
-In order to create more routes, one can go into the `/routes` folder.
+This is a small file server written in Node JavaScript. The server is capable of
+running as an HTTP server structure, through Express.JS as a middleware. The
+project can serve files and be extremely flexible, and additional routes and
+resources can be added with minimal coding effort or experience.
+
+A full documentation on how one would go about creating, updating, or improving
+this project (from near scratch!) is provided in the `/docs` folder. The index
+of that folder also contains a summary of the individual portions.
 
 # License TL;DR
 
