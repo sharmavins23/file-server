@@ -2,7 +2,6 @@
 
 // Yet again, we're using JavaScript's FileSystem API.
 const fs = require("fs");
-const path = require("path");
 
 function file(app) {
     // We could have a different route for each file, but that's a lot of work
@@ -57,13 +56,13 @@ function file(app) {
                     }
                 },
                 // This function gets called after the file is sent
-                (err) => {
+                (error) => {
                     // If the error actually exists at all...
-                    if (err) {
-                        let errorMsg = `Error in sending files: ${err}`;
+                    if (error) {
+                        let errorMsg = `Error in sending files: ${error}`;
                         console.error(errorMsg);
                         response
-                            .status(400)
+                            .status(500) // HTTP Status Code 500: Internal Server Error
                             .send(errorMsg);
                         return;
                     }
@@ -73,7 +72,7 @@ function file(app) {
                     response.status(200);
                     return;
                 }
-            )
+            );
         }
     )
 }
