@@ -104,7 +104,7 @@ projects.
 
 ## Any alternatives?
 
-Ryan Dahl hosted a talk in 2018 about ten things he regretted about Ndoe.js. The
+Ryan Dahl hosted a talk in 2018 about ten things he regretted about Node.js. The
 initial design decisions with Node.js focusing on not using JavaScript promises,
 using legacy systems, implementing a `node_modules` folder to cache imports,
 leaving out file extensions, etc. were significant pain points for him.
